@@ -1,5 +1,7 @@
 Aplikacija za prikaz podataka dobijenih sa API servera.
 
+Link za pristup aplikaciji : "http://FilipKalicanin.github.io/Project-React.js"
+
 Tehnologije:
 
     1. react : 16.13.1
