@@ -49,8 +49,8 @@ export const StyledLink = styled(Link)`
 // LOG IN PAGE
 
 export const Forma = styled.form`
-    width: 255px;
-    height: 130px;
+    width: 400px;
+    height: 250px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -60,16 +60,17 @@ export const Forma = styled.form`
 
 export const Inputi = styled.input`
   display: block;
-  width: 250px;
-  height: 30px;
+  width: 350px;
+  height: 60px;
   border: none;
   outline: none;
   box-shadow: none;
   background: #ff8f00;
-  border-radius: 10px;
+  border-radius: 20px;
   ::-webkit-input-placeholder {
-      padding-left: 20px;
+      padding-left: 40px;
   };
+  font-size: 20px;
 `
 
 // HOME
@@ -88,67 +89,69 @@ export const Opis = styled.p`
 
 export const StyledDivImg = styled.div`
     display: flex;
-    width: 600px;
-    height: 400px;
-    margin-left: 25%;
-   
+    width: 850px;
+    height: 550px;
+    margin-left: 30%;
 `
 
 export const StyledImg = styled.img`
     margin-top: 5%;
-    margin-left: 20px;
-    width: 400px;
-    height: 350px;
+    margin-left: 75px;
+    width: 500px;
+    height: 450px;
 `
 export const StyledBtnPrev = styled.button`
     margin-top: 25%;
-    width: 80px;
-    height: 40px;
+    width: 100px;
+    height: 60px;
     border: none;
     background: none;
     color: #420D09;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
 `
 export const StyledBtnNext = styled.button`
     margin-top: 25%;
-    margin-left: 20px;
-    width: 80px;
-    height: 40px;
+    margin-left: 30px;
+    width: 100px;
+    height: 60px;
     float: right;
     border: none;
     background: none;
     color: #420D09;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
 `
 
 export const StyledDivText = styled.div`
     display: flex;
-    width: 600px;
-    height: 100px;
-    margin-left: 25%;
+    width: 850px;
+    height: 150px;
+    margin-left: 30%;
 `
 
 export const StyledBreed = styled.span`
-    width: 150px;
+    width: 250px;
     border-right: 2px solid blanchedalmond;
     text-align: center;
     color: #420D09;
     font-weight: bold;
+    font-size: 25px;
 `
 export const StyledTemperament = styled.span`
     text-align: center;
     border-right: 2px solid blanchedalmond;
-    width: 300px;
+    width: 400px;
     color: #420D09;
     font-weight: bold;
+    font-size: 25px;
 `
 export const StyledLifeSpan = styled.span`
     text-align: center;
-    width: 150px;
+    width: 250px;
     color: #420D09;
     font-weight: bold;
+    font-size: 25px;
 `
 
 // SEARCH
@@ -156,16 +159,16 @@ export const StyledLifeSpan = styled.span`
 export const StyledInputSearch = styled.input`
     margin-left: 5%;
     margin-top: 5%;
-    width: 250px;
-    height: 30px;
+    width: 350px;
+    height: 70px;
     border: none;
     outline: none;
     box-shadow: none;
     background: #ff8f00;
-    border-radius: 10px;
+    border-radius: 20px;
   ::-webkit-input-placeholder {
     padding-left: 20px;
   };
-    
+    font-size: 25px;
     
 `
