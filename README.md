@@ -34,3 +34,8 @@ Prethodno potrebna instalacija NodeJS (v12.14.0 ili novija)
 Pokretanje projekta:
 
     1. (terminal) npm start
+
+Username i password za LogIn:
+
+    username : "dogs"
+    password : "house"
